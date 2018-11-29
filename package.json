@@ -1,0 +1,17 @@
+{
+  "name": "nodemocha",
+  "version": "1.0.0",
+  "description": "Sample node mocha test",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "Isaac Kiyimba",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "nyc": "^13.1.0"
+  }
+}
