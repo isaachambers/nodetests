@@ -4,7 +4,7 @@
   "description": "Sample node mocha test",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha './test/**/*spec.js'"
   },
   "author": "Isaac Kiyimba",
   "license": "MIT",
