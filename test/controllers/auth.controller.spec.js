@@ -6,5 +6,8 @@ describe('AuthController', ()=>{
     it('Should return false if role does not exist in array', ()=>{
       assert.equal(false,authcontroller.isAuthorized(['user'], 'admin'));
     })
+    it('Should return true if role exists in array', ()=>{
+      assert.equal(true,authcontroller.isAuthorized(['user', 'admin'], 'admin'));
+    })
   });
 })
