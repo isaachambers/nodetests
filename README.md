@@ -2,4 +2,4 @@
 Practice Node Tests
 
 
-These are soimple tests for node with mocha. 
+These are simple tests for node with mocha. 
